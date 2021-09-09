@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel="stylesheet type="text/css href="style.css">
+    <link rel="icon" type="image/png" href="../search/images/googles-logo.png">
+  </head>
+  <body>
+    <div id="upperright">
+      <a href="index.html" class="home">
+      <span style="color:#4885ed">G</span>
+      <span style="color:#db3236">o</span>
+      <span style="color:#f4c20d">o</span>
+      <span style="color:#4885ed">g</span>
+      <span style="color:#3cba54">l</span>
+      <span style="color:#db3236">e</span>
+      </a>
+    </div>
+    <p id="sub">Advanced Search</p>
+    <div id="formcon">
+        <div class="finpg">Find pages with...</div>
+        <div class="tds">To do this in the search box.</div>
+      <form action="https://www.google.com/search" method="GET" class= "query">
+        <div class="lincon">
+          <label class="inplabel">all these words:</label> 
+          <input type="text" name="as_q" class= "qry" role = "combobox" value=""> 
+          <span class="inf">Type the important words: tri-colour rat terrier</span>
+        </div>
+        <div class="lincon">
+          <label class="inplabel">this exact word or phrase:</label> 
+          <input type="text" name="as_epq" class= "qry" role = "combobox" value=""> 
+          <span class="inf">Put exact words in quotes: "rat terrier"</span>
+        </div>
+        <div class="lincon">
+          <label class="inplabel">any of these words:</label> 
+          <input type="text" name="as_oq" class= "qry" role = "combobox" value=""> 
+          <span class="inf">Type OR between all the words you want: miniature OR standard</span>
+        </div>
+        <div class="lincon">
+          <label class="inplabel">none of these words:</label> 
+          <input type="text" name="as_eq" class= "qry" role = "combobox" value=""> 
+          <span class="inf">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Advance Search" id="advbtn">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
